@@ -85,3 +85,68 @@ console.log(nom);
 
 */
 
+// ******************** Operations *****************
+ let values = 2004
+ let negval = -values
+ console.log(negval);
+
+// Common arithmetic Ops
+//  console.log(2+2);
+//  console.log(2*2);
+//  console.log(2**3);
+//  console.log(2/2);
+//  console.log(7%3);
+//  console.log(546-458);
+
+let str1 = "Ram"
+let str2 = " Kumar"
+console.log(str1+str2);
+/* or --let str3 = str1 + str2
+--------console.log(str3);
+*/
+
+console.log("1"+2); //---> 12
+console.log(1+"2"); //----> 12
+console.log("1"+"2");//---->12
+console.log("1"+2+2); //--->122
+console.log(1+2+"2"); // --->32
+console.log(1+2+"3"+2); //---->332
+console.log(3*"3"*3); // ----> 27
+console.log(3**"3"); //----->27
+
+console.log("3"-"3"); // -----> 0
+console.log("56"/"56"); //----> 1
+console.log("6"%"3"); // ---> 0
+console.log(3 * 4 + 5 % 3) //---> 14 not like this
+console.log((3 * 4) + (5 % 3)) //---> 14 use parenthesis 
+
+
+// for /, %, *, **, - it considers all as str
+// for + , it considers at concatenation after it , but adds nos befor "+" symbol
+
+console.log(+true); // --> 1 it is incremented but still its 1
+console.log(+""); //--> 0 --> '("")' is 0 in num and false in bool
+//console.log(""+);// not possible
+
+let gameCounter = 45
+gameCounter++;
+console.log(gameCounter); // it is incremented +1
+
+let gameCounter = 45
+++gameCounter;
+console.log(gameCounter); //---> even in prefix it increments +1
+
+// for clarification, google --> prefix & postfix js mdn 
+
+
+///////////////////////// MAKE CODE READABLE///////////////////////
+
+
+
+
+
+
+ 
+ 
+ 
+ 
