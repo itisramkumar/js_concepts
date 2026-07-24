@@ -1,8 +1,8 @@
 let score = 4567
 let name = "Ram"
 let letno = "45850gasj"
-let val = undefined
-let value = null
+let val = undefined //----> NaN (to number)
+let value = null // ----> 0 (null to number)
 let happy = true
 let sad = false
 
@@ -31,11 +31,6 @@ console.log(gh);
 console.log(ij);
 console.log(ji);
 
-// The interview question was
-console.log(null == undefined);
-console.log(null === undefined)
-console.log(undefined);
-console.log(null);
 
 /* String ---> Number
  "33" ---> 33
@@ -132,9 +127,9 @@ let gameCounter = 45
 gameCounter++;
 console.log(gameCounter); // it is incremented +1
 
-let gameCounter = 45
-++gameCounter;
-console.log(gameCounter); //---> even in prefix it increments +1
+let gameCounters = 45
+++gameCounters;
+console.log(gameCounters); //---> even in prefix it increments +1
 
 // for clarification, google --> prefix & postfix js mdn 
 
