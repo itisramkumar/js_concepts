@@ -56,7 +56,20 @@ Check the link below to have a good notes for the data types in js
 
 let myYTname = "Ram Kumar"
 let anotherName = myYTname
-
+myYTname = "datamachine"
+anotherName = "datanerd"
+console.log(myYTname); // Here you would get the copy of the value
 console.log(anotherName);
 
+let userOne = {
+    email : "ramkumar@gmail.com",
+    upi : "user@iob"
+}
 
+let userTwo = userOne
+// Here you would get the reference of the value
+userTwo.email = "ramkumar@tiger.com"
+console.log(userTwo.email)
+console.log(userOne.email);
+// Both the values would be changed and remain same as ot takes the reference w.r.t heap
+// Reference means : Whatever modification you do under the data is done in the original data  
