@@ -49,3 +49,14 @@ Check the link below to have a good notes for the data types in js
 */
 ////////// https://262.ecma-international.org/5.1/#sec-11.4.3 ///
 
+// Stack (Primitive)
+// whatever memory is story in this , we a copy of of it
+// Heap (non-Primitive)
+// In this we get a reference
+
+let myYTname = "Ram Kumar"
+let anotherName = myYTname
+
+console.log(anotherName);
+
+
